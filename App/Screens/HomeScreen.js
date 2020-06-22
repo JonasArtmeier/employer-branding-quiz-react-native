@@ -4,7 +4,8 @@ import Container from '../components/Container';
 import Footer from '../components/Footer';
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function App() {
+//// function ////
+export default function Home() {
   return (
     <Container>
       <View>
@@ -15,6 +16,7 @@ export default function App() {
   );
 }
 
+//// style-components ////
 const containerStyles = StyleSheet.create({
   test: {
     color: 'black',

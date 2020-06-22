@@ -1,23 +1,26 @@
-import React, { Component, useState } from 'react';
-import { TextInput, Stylesheet } from 'react-native';
+import React from 'react';
+import { TextInput, StyleSheet } from 'react-native';
 
-const InputFieldStyles = StyleSheet.create({
-  container: { flex: 1 },
+//// style-components ////
+const inputFieldStyles = StyleSheet.create({
   inputField: {
     height: 40,
     borderColor: 'gray',
     borderWidth: 1,
+    padding: 10,
   },
 });
 
+//// function ////
 export default function InputField(props) {
-  const [text, setText] = useState(props.label);
-
   return (
     <TextInput
-      label="Email"
-      value={this.state.text}
-      onChangeText={(text) => setText({ text })}
+      secureTextEntry={props.secureTextEntry}
+      style={inputFieldStyles.inputField}
+      label={props.label}
+      value={props.value}
+      placeholder={props.label}
+      onChangeText={() => props.onChange()}
     />
   );
 }
