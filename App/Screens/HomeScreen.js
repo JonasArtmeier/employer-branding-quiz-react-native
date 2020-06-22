@@ -1,6 +1,7 @@
 import React from 'react';
 // import {} from 'react-native';
-import Container from './App/components/Container';
+import Container from '../components/Container';
+import Footer from '../components/Footer';
 import { StyleSheet, View, Text } from 'react-native';
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <View>
         <Text style={containerStyles.test}>Test</Text>
       </View>
+      <Footer />
     </Container>
   );
 }

@@ -7,8 +7,10 @@ const Container = (props) => (
 
 const containerStyles = StyleSheet.create({
   container: {
-    backgroundColor: 'lightgreen',
+    backgroundColor: 'white',
     zIndex: -1,
+    flex: 1,
+    padding: 20,
   },
 });
 
