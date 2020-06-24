@@ -20,7 +20,8 @@ export default function InputField(props) {
       label={props.label}
       value={props.value}
       placeholder={props.label}
-      onChangeText={() => props.onChange()}
+      onChangeText={(text) => props.onChange(text)}
+      autoCapitalize="none"
     />
   );
 }

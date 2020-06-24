@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "697230920771",
+    "firebase_url": "https://employer-branding-app.firebaseio.com",
+    "project_id": "employer-branding-app",
+    "storage_bucket": "employer-branding-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697230920771:android:b6ce0d8773cd1acba6d8f6",
+        "android_client_info": {
+          "package_name": "com.reactnativefinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697230920771-ci95vnpcm20d9763jhhm5bf58uatnip9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXVPsbyLhM6D1EhnfTH05yeYPZCqyTNuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697230920771-ci95vnpcm20d9763jhhm5bf58uatnip9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

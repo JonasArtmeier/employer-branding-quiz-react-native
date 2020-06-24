@@ -1,4 +1,4 @@
-#Empoyer branding Quiz App
+# Empoyer branding Quiz App
 
 ## A React Native - expo Project for Android, IOS and Web
 
@@ -31,9 +31,9 @@ Functions:
 
 ## Technical Stuff:
 
-This App is written with React Native [React Native](https://reactnative.dev/)and Expo [Expo.io](https://expo.io/).
+This App is written with [React Native](https://reactnative.dev/)and [Expo.io](https://expo.io/).
 
-The it is base on a PostgreSql Database.
+The App is based on a PostgreSQL Database.
 The first example Database structure looks like this:
 
 ![Database Structure](https://github.com/JonasArtmeier/employer-branding-quiz-react-native/blob/master/DataBaseStructure.JPG)

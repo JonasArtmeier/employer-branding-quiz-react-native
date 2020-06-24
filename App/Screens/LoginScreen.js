@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import { firebase } from '../../firebase/config'
 import Container from '../components/Container';
 import Footer from '../components/Footer';
 import Logo from '../components/Logo';
@@ -39,8 +40,8 @@ export default function Login(props) {
           label="Login"
         />
         <Button
-          onPress={() => props.navigation.navigate('Register')}
-          label="Register"
+          onPress={() => props.navigation.navigate('Registration')}
+          label="Registration"
         />
       </View>
       <Footer />
